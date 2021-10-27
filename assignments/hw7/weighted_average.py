@@ -58,6 +58,9 @@ def weighted_average(in_file_name, out_file_name):
     #   printed a new line before "class average," which caused all tests to fail)
     print("Class average: " + str(round(sum(average_list) / len(average_list), 1)), file=file2)
 
+    file1.close()
+    file2.close()
+
 
 def main():
     weighted_average("grades.txt", "avg.txt")
