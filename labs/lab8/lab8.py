@@ -2,9 +2,6 @@
 Name: Luke Clark
 lab8.py
 """
-# I was told by everyone all week that labs were cancelled for this week so I got quite
-# a late start on this and wasn't able to make it to the lecture once I figured out that
-# apparently nobody knows what they are talking about and that this lab was NOT cancelled.
 
 from function import encode
 
